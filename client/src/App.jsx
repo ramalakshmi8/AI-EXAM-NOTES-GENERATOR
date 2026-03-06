@@ -11,7 +11,7 @@ import { Navigate } from "react-router-dom";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailure from "./pages/PaymentFailure";
 
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://ai-exam-notes-generator-server-g37u.onrender.com";
 
 export const App = () => {
   const dispatch = useDispatch();
