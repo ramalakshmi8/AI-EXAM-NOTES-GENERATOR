@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar.jsx";
 import { useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
-import img from "../assets/image.png";
+import img from "../assets/img1.png";
 import Footer from "../components/Footer.jsx";
 const Home = () => {
   const navigate = useNavigate();
