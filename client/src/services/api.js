@@ -37,7 +37,7 @@ export const downloadPdf = async (result) => {
       { result },
       { responseType: "blob", withCredentials: true },
     );
-    const blob = new Blob([response.data], { type: "application / pdf" });
+    const blob = new Blob([response.data], { type: "application/pdf" });
     const Url = window.URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = Url;
